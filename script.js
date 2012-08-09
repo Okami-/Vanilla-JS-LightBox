@@ -8,7 +8,7 @@ function expandPhoto() {
 
    // create image and append to page
    var img = document.createElement("img");
-   img.style.width = "40%";
+   img.style.width = "30%";
    img.setAttribute("id","img");
    img.src = this.getAttribute("data-larger");
    img.setAttribute("class","overlayimg");
